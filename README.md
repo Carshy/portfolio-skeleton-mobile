@@ -1,5 +1,5 @@
 # portfolio-skeleton-mobile
-This is a personal portfolio website showcasing my experience as a developer. The features are replicated from figma. The project is continues. Every milestone will require creating new features
+This is a personal portfolio website showcasing my experience as a developer. The features are replicated from figma. The project is continuous. Every milestone will require creating new features
 ## Built With
 * HTML
 * CSS
