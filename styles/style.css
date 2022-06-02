@@ -6,9 +6,9 @@
 
 header {
   position: relative;
-  display: flex; 
-  justify-content: space-between; 
-  height: 45px; 
+  display: flex;
+  justify-content: space-between;
+  height: 45px;
   left: 24px;
   left: 24px;
   top: 30px;
@@ -23,7 +23,7 @@ header {
   position: relative;
   left: 24px;
   list-style-type: none;
-    
+
   top: 50px;
   display: flex;
   flex-direction: column;
@@ -39,17 +39,17 @@ main {
 /*Title | description part of the portfolio*/
 .title {
   /* width: 327px; */
-  font-family: 'poppins';
+  font-family: "poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
+  color: #172b4d;
   margin-top: 60px;
 }
 
 .text {
-  font-family: 'poppins';
+  font-family: "poppins";
   font-style: normal;
   font-weight: 400px;
   font-size: 16px;
@@ -65,12 +65,12 @@ main {
 .connect a {
   width: 117px;
   height: 24px;
-  font-family: 'poppins';
+  font-family: "poppins";
   font-style: normal;
-  font-weight:500;
+  font-weight: 500;
   font-size: 16px;
-  color: #7F8CFF;
-  text-decoration: none; 
+  color: #7f8cff;
+  text-decoration: none;
 }
 
 .social-media ul {
