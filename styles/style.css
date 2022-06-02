@@ -10,7 +10,6 @@ header {
   justify-content: space-between;
   height: 45px;
   left: 24px;
-  left: 24px;
   top: 30px;
   bottom: 38px;
 }
@@ -23,7 +22,6 @@ header {
   position: relative;
   left: 24px;
   list-style-type: none;
-
   top: 50px;
   display: flex;
   flex-direction: column;
@@ -37,9 +35,10 @@ main {
 }
 
 /*Title | description part of the portfolio*/
+
 .title {
   /* width: 327px; */
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 40px;
@@ -49,7 +48,7 @@ main {
 }
 
 .text {
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400px;
   font-size: 16px;
@@ -65,7 +64,7 @@ main {
 .connect a {
   width: 117px;
   height: 24px;
-  font-family: "poppins";
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
