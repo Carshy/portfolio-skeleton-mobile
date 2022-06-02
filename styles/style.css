@@ -1,0 +1,119 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+header nav ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 45px;
+  left: 24px;
+  top: 30px;
+  bottom: 38px;
+}
+
+.logo a {
+  text-decoration: none;
+}
+
+.headlines {
+  position: relative;
+  left: 24px;
+  list-style-type: none;
+  top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  background-image: url(../images/header-shapes\ mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: 462px 587px;
+  width: 100%;
+}
+
+/* Title description part of the portfolio */
+
+.title {
+  /* width: 327px; */
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 60px;
+}
+
+.text {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin-top: 12px;
+}
+
+.connect {
+  margin-top: 12px;
+  margin-bottom: 15.03px;
+}
+
+.connect a {
+  width: 117px;
+  height: 24px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.social-media ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+.social-media ul li {
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.twitter-logo {
+  width: 19.99px;
+  height: 19.99px;
+}
+
+.linkedin-logo {
+  width: 12.71px;
+  height: 16.97px;
+}
+
+.medium-logo {
+  width: 20px;
+  height: 16px;
+}
+
+.github-logo {
+  width: 17.99px;
+  height: 20px;
+}
+
+.angellist-logo {
+  width: 14.17px;
+  height: 20px;
+}
+
+.menu {
+  display: flex;
+  width: 117px;
+  height: 24px;
+  align-items: center;
+  padding-right: 30px;
+}
