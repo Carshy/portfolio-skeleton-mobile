@@ -8,14 +8,11 @@ header nav ul {
   position: relative;
   display: flex;
   justify-content: space-between;
+  list-style-type: none;
   height: 45px;
   left: 24px;
   top: 30px;
   bottom: 38px;
-}
-
-header nav ul {
-  list-style-type: none;
 }
 
 .logo a {
