@@ -14,7 +14,7 @@ header nav ul {
   bottom: 38px;
 }
 
-ul {
+header nav ul {
   list-style-type: none;
 }
 
@@ -87,12 +87,6 @@ main {
   list-style-type: none;
   padding-right: 10px;
 }
-
-/*.social-media ul li a img {
-  display: block;
-  height: 19.99px;
-  width: 19.99px;
-}*/
 
 .twitter-logo {
   width: 19.99px;
