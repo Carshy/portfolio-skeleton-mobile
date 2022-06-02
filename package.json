@@ -1,0 +1,27 @@
+{
+  "name": "portfolio-skeleton-mobile",
+  "version": "1.0.0",
+  "description": "This is a personal portfolio website showcasing my experience as a developer. The features are replicated from figma. The project is continuous. Every milestone will require creating new features\r ## Built With\r * HTML\r * CSS\r * Git\r * Figma",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Carshy/portfolio-skeleton-mobile.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Carshy/portfolio-skeleton-mobile/issues"
+  },
+  "homepage": "https://github.com/Carshy/portfolio-skeleton-mobile#readme",
+  "devDependencies": {
+    "hint": "^6.2.0",
+    "stylelint": "^13.13.1",
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-csstree-validator": "^1.9.0",
+    "stylelint-scss": "^3.21.0"
+  }
+}
