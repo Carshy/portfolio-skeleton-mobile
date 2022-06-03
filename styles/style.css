@@ -139,8 +139,8 @@ main {
   gap: 12px;
   width: 327px;
   height: 600px;
-  background: #FFFFFF;
-  border: 1px solid #DFE1E6;
+  background: #ffffff;
+  border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
 
@@ -156,27 +156,27 @@ main {
   margin: 12px 16px 12px 16px;
   width: 295px;
   height: 36px;
-  font-family: 'poppins', sans-serif;
+  font-family: "poppins", sans-serif;
   font-style: normal;
   font-size: 32px;
   font-weight: 700;
   line-height: 44px;
-  color: #172B4D;
+  color: #172b4d;
 }
 
 .details ul {
   display: flex;
-  flex-direction: row; 
+  flex-direction: row;
   width: 295px;
   height: 25px;
 }
 
- .details ul li {
-margin: 12px;
- }
+.details ul li {
+  margin: 12px;
+}
 
 .canopy {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -184,28 +184,28 @@ margin: 12px;
   color: #344563;
   list-style-type: none;
   margin-left: 0 !important;
-} 
+}
 
 .back-end {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .year {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #7A869A;
+  color: #7a869a;
 }
 
 .descriptive-paragraph {
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -217,15 +217,14 @@ margin: 12px;
 
 .languages {
   list-style-type: none;
-  
 }
 
 .languages li {
-  background: #EBEBFF;
+  background: #ebebff;
   border-radius: 8px;
   letter-spacing: 0.03em;
   padding: 4px 12px 4px 12px;
-  color: #6070FF;
+  color: #6070ff;
   text-align: center;
   width: 295px;
   height: 25px;
@@ -248,7 +247,6 @@ margin: 12px;
   width: 45px;
   height: 24px;
   padding: 4px 12px;
-  
 }
 
 .btn {
@@ -265,21 +263,21 @@ margin: 12px;
   width: 124px;
   height: 48px;
   margin-top: 16px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   left: 0px;
 }
 
 button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
   line-height: 24px;
   border: 0;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 /* Section Three: About Myself */
@@ -317,7 +315,6 @@ main {
 /* Title description part of the portfolio */
 
 .title {
-  /* width: 327px; */
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -402,9 +399,7 @@ main {
 }
 
 .resume-button {
-  
   box-sizing: border-box;
-  
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -412,21 +407,21 @@ main {
   width: 162px;
   height: 48px;
   margin-top: 16px;
-  border: 1px solid #6070FF;
+  border: 1px solid #6070ff;
   border-radius: 8px;
   left: 0px;
 }
 
 button {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
   line-height: 24px;
   border: 0;
-  background: #FFFFFF;
+  background: #ffffff;
 }
 
 .languages-p {
@@ -447,12 +442,11 @@ button {
   left: 12px;
   top: 24px;
   border-radius: nullpx;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-
 }
 
 .drop-down {
@@ -466,7 +460,7 @@ button {
   align-items: center;
   width: 303px;
   height: 66.72px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   margin-top: 36px;
 }
@@ -474,7 +468,7 @@ button {
 .js-logo {
   width: 48px;
   height: 48px;
-  border-radius: 1px solid #FFFFFF;
+  border-radius: 1px solid #ffffff;
   margin-right: 16px;
   margin-left: 12px;
 }
@@ -483,7 +477,7 @@ button {
   height: 4px;
   left: 76px;
   right: 12px;
-  font-family: 'Poppins';
+  font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -491,6 +485,7 @@ button {
   color: #253858;
   padding: 8px 12px 21px 0px;
 }
+
 hr {
   width: 327px;
   height: 1px;
