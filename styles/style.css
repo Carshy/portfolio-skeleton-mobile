@@ -81,6 +81,18 @@ main {
   align-items: baseline;
 }
 
+.languages li {
+  background: #ebebff;
+  border-radius: 8px;
+  letter-spacing: 0.03em;
+  padding: 4px 12px 4px 12px;
+  color: #6070ff;
+  text-align: center;
+  width: 295px;
+  height: 25px;
+  margin-left: 0 !important;
+}
+
 .social-media ul li {
   list-style-type: none;
   padding-right: 10px;
@@ -139,7 +151,7 @@ main {
   gap: 12px;
   width: 327px;
   height: 600px;
-  background: #ffffff;
+  background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
 }
@@ -162,6 +174,17 @@ main {
   font-weight: 700;
   line-height: 44px;
   color: #172b4d;
+}
+
+header nav ul {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  height: 45px;
+  left: 24px;
+  top: 30px;
+  bottom: 38px;
 }
 
 .details ul {
@@ -187,7 +210,7 @@ main {
 }
 
 .back-end {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -196,7 +219,7 @@ main {
 }
 
 .year {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
@@ -205,7 +228,7 @@ main {
 }
 
 .descriptive-paragraph {
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 15px;
@@ -217,18 +240,6 @@ main {
 
 .languages {
   list-style-type: none;
-}
-
-.languages li {
-  background: #ebebff;
-  border-radius: 8px;
-  letter-spacing: 0.03em;
-  padding: 4px 12px 4px 12px;
-  color: #6070ff;
-  text-align: center;
-  width: 295px;
-  height: 25px;
-  margin-left: 0 !important;
 }
 
 .html-language {
@@ -265,7 +276,7 @@ main {
   margin-top: 16px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  left: 0px;
+  left: 0;
 }
 
 button {
@@ -275,22 +286,11 @@ button {
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
-  line-height: 24px;
   border: 0;
-  background: #ffffff;
+  background: #fff;
 }
 
 /* Section Three: About Myself */
-header nav ul {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  height: 45px;
-  left: 24px;
-  top: 30px;
-  bottom: 38px;
-}
 
 .logo a {
   text-decoration: none;
