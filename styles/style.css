@@ -39,7 +39,6 @@ main {
 /* Title description part of the portfolio */
 
 .title {
-  /* width: 327px; */
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -176,17 +175,6 @@ main {
   color: #172b4d;
 }
 
-header nav ul {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  height: 45px;
-  left: 24px;
-  top: 30px;
-  bottom: 38px;
-}
-
 .details ul {
   display: flex;
   flex-direction: row;
@@ -292,108 +280,6 @@ button {
 
 /* Section Three: About Myself */
 
-.logo a {
-  text-decoration: none;
-}
-
-.headlines {
-  position: relative;
-  left: 24px;
-  list-style-type: none;
-  top: 50px;
-  display: flex;
-  flex-direction: column;
-}
-
-main {
-  background-image: url(../images/header-shapes\ mobile@2x.png);
-  background-repeat: no-repeat;
-  background-size: 462px 587px;
-  width: 100%;
-}
-
-/* Title description part of the portfolio */
-
-.title {
-  font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 52px;
-  color: #172b4d;
-  margin-top: 60px;
-}
-
-.text {
-  font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 400px;
-  font-size: 16px;
-  line-height: 24px;
-  color: #344563;
-  margin-top: 12px;
-}
-
-.connect {
-  margin-top: 12px;
-  margin-bottom: 15.03px;
-}
-
-.connect a {
-  width: 117px;
-  height: 24px;
-  font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
-  text-decoration: none;
-}
-
-.social-media ul {
-  display: flex;
-  justify-content: flex-start;
-  align-items: baseline;
-}
-
-.social-media ul li {
-  list-style-type: none;
-  padding-right: 10px;
-}
-
-.twitter-logo {
-  width: 19.99px;
-  height: 19.99px;
-}
-
-.linkedin-logo {
-  width: 12.71px;
-  height: 16.97px;
-}
-
-.medium-logo {
-  width: 20px;
-  height: 16px;
-}
-
-.github-logo {
-  width: 17.99px;
-  height: 20px;
-}
-
-.angellist-logo {
-  width: 14.17px;
-  height: 20px;
-}
-
-.menu {
-  display: flex;
-  width: 117px;
-  height: 24px;
-  align-items: center;
-  padding-right: 30px;
-}
-
 .btn-resume {
   position: relative-reverse;
 }
@@ -409,19 +295,7 @@ main {
   margin-top: 16px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  left: 0px;
-}
-
-button {
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  line-height: 24px;
-  border: 0;
-  background: #ffffff;
+  left: 0;
 }
 
 .languages-p {
@@ -435,14 +309,12 @@ button {
 
 .languages-p h4 {
   height: 24px;
-  left: 12px;
-  color: #000000;
-  height: 24px;
+  color: #000;
   width: 237px;
   left: 12px;
   top: 24px;
   border-radius: nullpx;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
@@ -468,7 +340,7 @@ button {
 .js-logo {
   width: 48px;
   height: 48px;
-  border-radius: 1px solid #ffffff;
+  border-radius: 1px solid #fff;
   margin-right: 16px;
   margin-left: 12px;
 }
@@ -477,13 +349,13 @@ button {
   height: 4px;
   left: 76px;
   right: 12px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
   color: #253858;
-  padding: 8px 12px 21px 0px;
+  padding: 8px 12px 21px 0;
 }
 
 hr {
