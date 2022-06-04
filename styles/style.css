@@ -63,13 +63,6 @@ header.head-logo-bx {
   padding-top: 29px;
 }
 
-/* main {
-  background-image: url(../images/header-shapes\ mobile@2x.png);
-  background-repeat: no-repeat;
-  background-size: 462px 587px;
-  width: 100%;
-} */
-
 /* Title description part of the portfolio */
 
 .title {
@@ -330,6 +323,8 @@ header.head-logo-bx {
 .details-button:hover {
   background-color: #6070ff;
   color: white;
+  cursor: pointer;
+  opacity: 0.9;
 }
 
 .details-button:active {
@@ -346,13 +341,6 @@ button {
   color: #396df2;
   border: 0;
   background: #fff;
-}
-
-.details-button:hover {
-  background-color: #6070ff;
-  color: white;
-  cursor: pointer;
-  opacity: 0.8;
 }
 
 .details-button:focus {
