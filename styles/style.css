@@ -8,7 +8,7 @@ body {
   position: relative;
   width: 375px;
   height: 5410px;
-  background: #F7F7F9;
+  background: #e5e5e5;
 }
 
 /* Section One: headlines */
@@ -28,17 +28,15 @@ header nav ul {
 }
 
 .headlines {
-  border-radius: 0px 0px 0px 75px;
+  border-radius: 0 0 0 75px;
   position: relative;
-  
   list-style-type: none;
-  top: 50px;
   display: flex;
   flex-direction: column;
-  background: #FFF;
+  background: #fff;
   width: 471px;
   height: 718px;
-  top: 0px;
+  top: 0;
   margin-bottom: 114px;
 }
 
@@ -118,6 +116,35 @@ main {
   width: 295px;
   height: 25px;
   margin-left: 0 !important;
+}
+
+.languages-p li {
+  padding-left: 20px;
+  height: 24px;
+  color: #000;
+  width: 237px;
+  left: 12px;
+  top: 24px;
+  border-radius: nullpx;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  list-style-type: none;
+}
+
+.languages-list li {
+  left: 76px;
+  right: 12px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #253858;
+  padding: 8px 12px 21px 0;
+  list-style-type: none;
 }
 
 .social-media ul li {
@@ -307,19 +334,15 @@ button {
 }
 
 .btn button:hover {
-  background-color: #6070FF;
-  color:white;
+  background-color: #6070ff;
+  color: white;
   cursor: pointer;
   opacity: 0.8;
 }
 
 .btn button:focus {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
-}
-
-body {
-  background-color: #E5E5E5;
 }
 
 /* Section Three: About Myself */
@@ -329,11 +352,11 @@ body {
   height: 1263px;
   left: 375px;
   top: 4769px;
-  background: #FFF;
+  background: #fff;
 }
 
 .btn-resume {
- padding-left: 20px;
+  padding-left: 20px;
 }
 
 .resume-button {
@@ -352,13 +375,13 @@ body {
 
 .btn-resume button:hover {
   background-color: #6070ff;
-  color:white;
+  color: white;
   cursor: pointer;
   opacity: 0.8;
 }
 
 .btn-resume button:focus {
-  background-color: #6070FF;
+  background-color: #6070ff;
   color: white;
 }
 
@@ -369,22 +392,6 @@ body {
   justify-content: space-between;
   width: 298px;
   height: 63px;
-}
-
-.languages-p li {
-  padding-left: 20px;
-  height: 24px;
-  color: #000;
-  width: 237px;
-  left: 12px;
-  top: 24px;
-  border-radius: nullpx;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 24px;
-  list-style-type: none;
 }
 
 .drop-down {
@@ -416,20 +423,6 @@ body {
   border-radius: 1px solid #fff;
   margin-right: 16px;
   margin-left: 12px;
-}
-
-.languages-list li {
- 
-  left: 76px;
-  right: 12px;
-  font-family: "Poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 20px;
-  color: #253858;
-  padding: 8px 12px 21px 0;
-  list-style-type: none;
 }
 
 hr {
