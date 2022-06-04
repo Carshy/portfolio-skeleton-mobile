@@ -4,6 +4,13 @@
   box-sizing: border-box;
 }
 
+body {
+  position: relative;
+  width: 375px;
+  height: 5410px;
+  background: #F7F7F9;
+}
+
 /* Section One: headlines */
 header nav ul {
   position: relative;
@@ -21,12 +28,18 @@ header nav ul {
 }
 
 .headlines {
+  border-radius: 0px 0px 0px 75px;
   position: relative;
-  left: 24px;
+  
   list-style-type: none;
   top: 50px;
   display: flex;
   flex-direction: column;
+  background: #FFF;
+  width: 471px;
+  height: 718px;
+  top: 0px;
+  margin-bottom: 114px;
 }
 
 main {
@@ -46,6 +59,12 @@ main {
   line-height: 52px;
   color: #172b4d;
   margin-top: 60px;
+  width: 327px;
+  height: 150px;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .text {
@@ -56,9 +75,14 @@ main {
   line-height: 24px;
   color: #344563;
   margin-top: 12px;
+  width: 327px;
+  height: 146px;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .connect {
+  padding-top: 20px;
   margin-top: 12px;
   margin-bottom: 15.03px;
 }
@@ -72,12 +96,16 @@ main {
   font-size: 16px;
   color: #7f8cff;
   text-decoration: none;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .social-media ul {
   display: flex;
   justify-content: flex-start;
   align-items: baseline;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .languages li {
@@ -140,7 +168,7 @@ main {
 }
 
 .details {
-  margin-top: 179px;
+  margin-bottom: 88px;
   margin-left: 24px;
   box-sizing: border-box;
   display: flex;
@@ -149,7 +177,7 @@ main {
   padding: 16px;
   gap: 12px;
   width: 327px;
-  height: 600px;
+  height: 592px;
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
@@ -279,19 +307,33 @@ button {
 }
 
 .btn button:hover {
-  background-color: #36b39e;
+  background-color: #6070FF;
+  color:white;
   cursor: pointer;
   opacity: 0.8;
 }
 
 .btn button:focus {
-  background-color: #36b40e;
+  background-color: #6070FF;
+  color: white;
+}
+
+body {
+  background-color: #E5E5E5;
 }
 
 /* Section Three: About Myself */
 
+.about-myself {
+  width: 375px;
+  height: 1263px;
+  left: 375px;
+  top: 4769px;
+  background: #FFF;
+}
+
 .btn-resume {
-  position: relative-reverse;
+ padding-left: 20px;
 }
 
 .resume-button {
@@ -309,13 +351,15 @@ button {
 }
 
 .btn-resume button:hover {
-  background-color: #36b39e;
+  background-color: #6070ff;
+  color:white;
   cursor: pointer;
   opacity: 0.8;
 }
 
 .btn-resume button:focus {
-  background-color: #36b40e;
+  background-color: #6070FF;
+  color: white;
 }
 
 .languages-p {
@@ -327,7 +371,8 @@ button {
   height: 63px;
 }
 
-.languages-p h4 {
+.languages-p li {
+  padding-left: 20px;
   height: 24px;
   color: #000;
   width: 237px;
@@ -339,11 +384,19 @@ button {
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
+  list-style-type: none;
 }
 
 .drop-down {
   width: 24px;
   height: 16px;
+  margin-left: 149px;
+}
+
+.arrow-pointers {
+  width: 24px;
+  height: 16px;
+  margin-left: 120px;
 }
 
 .languages-list {
@@ -365,8 +418,8 @@ button {
   margin-left: 12px;
 }
 
-.languages-list h4 {
-  height: 4px;
+.languages-list li {
+ 
   left: 76px;
   right: 12px;
   font-family: "Poppins", sans-serif;
@@ -376,6 +429,7 @@ button {
   line-height: 20px;
   color: #253858;
   padding: 8px 12px 21px 0;
+  list-style-type: none;
 }
 
 hr {
