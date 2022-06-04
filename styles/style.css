@@ -5,10 +5,21 @@
 }
 
 body {
-  position: relative;
+  font-family: "poppins", sans-serif;
+  background: #E5E5E5;
+}
+
+main.main-bx {
   width: 375px;
-  height: 5410px;
-  background: #e5e5e5;
+  margin: auto;
+}
+
+h1.intro-title-bx {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  padding-left: 20px;
+  padding-top: 56px;
 }
 
 /* Section One: headlines */
@@ -27,6 +38,11 @@ header nav ul {
   text-decoration: none;
 }
 
+header.head-logo-bx {
+  width: 375px;
+  background: white;
+}
+
 .headlines {
   border-radius: 0 0 0 75px;
   position: relative;
@@ -34,20 +50,30 @@ header nav ul {
   display: flex;
   flex-direction: column;
   background: #fff;
-  width: 471px;
+  width: 375px;
   height: 718px;
   top: 0;
   margin-bottom: 114px;
+  background-image: url(../images/header-shapes\ mobile@2x.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+
 }
 
-main {
+.introduction {
+  padding-top: 29px;
+}
+
+/* main {
   background-image: url(../images/header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
   background-size: 462px 587px;
   width: 100%;
-}
+} */
 
 /* Title description part of the portfolio */
+
+
 
 .title {
   font-family: "poppins", sans-serif;
@@ -57,12 +83,6 @@ main {
   line-height: 52px;
   color: #172b4d;
   margin-top: 60px;
-  width: 327px;
-  height: 150px;
-  display: flex;
-  align-items: center;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .text {
@@ -119,19 +139,14 @@ main {
 }
 
 .languages-p li {
-  padding-left: 20px;
-  height: 24px;
   color: #000;
-  width: 237px;
-  left: 12px;
-  top: 24px;
   border-radius: nullpx;
-  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
   list-style-type: none;
+  padding-bottom: 10px;
 }
 
 .languages-list li {
@@ -189,8 +204,6 @@ main {
 .main-container {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: repeat(3, ifr);
-  margin-left: 24px;
   width: 375px;
 }
 
@@ -303,23 +316,28 @@ main {
   padding: 4px 12px;
 }
 
-.btn {
-  position: relative-reverse;
+.project-btn{
+  width: 100%;
 }
 
 .details-button {
-  position: absolute;
   box-sizing: border-box;
-  margin-left: 67px;
-  display: flex;
-  flex-direction: row;
   padding: 12px;
   width: 124px;
   height: 48px;
   margin-top: 16px;
   border: 1px solid #6070ff;
   border-radius: 8px;
-  left: 0;
+}
+
+.details-button:hover {
+  background-color: #6070ff;
+  color:white
+}
+
+.details-button:active {
+  background-color: white;
+  color:#6070ff
 }
 
 button {
@@ -333,14 +351,14 @@ button {
   background: #fff;
 }
 
-.btn button:hover {
+.details-button:hover {
   background-color: #6070ff;
   color: white;
   cursor: pointer;
   opacity: 0.8;
 }
 
-.btn button:focus {
+.details-button:focus {
   background-color: #6070ff;
   color: white;
 }
@@ -350,9 +368,17 @@ button {
 .about-myself {
   width: 375px;
   height: 1263px;
-  left: 375px;
-  top: 4769px;
-  background: #fff;
+}
+
+.introduction-about-bx {
+  width: 327px;
+  background: white;
+  margin: auto;
+  border-top-right-radius: 80px;
+  padding: 20px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
 }
 
 .btn-resume {
@@ -386,12 +412,9 @@ button {
 }
 
 .languages-p {
-  position: relative;
   margin-top: 46px;
   display: flex;
   justify-content: space-between;
-  width: 298px;
-  height: 63px;
 }
 
 .drop-down {
@@ -403,18 +426,19 @@ button {
 .arrow-pointers {
   width: 24px;
   height: 16px;
-  margin-left: 120px;
+  margin-left: 159px;
 }
+
+
 
 .languages-list {
   display: flex;
   flex-direction: row;
   align-items: center;
-  width: 303px;
-  height: 66.72px;
   background: #f7f7f9;
   border-radius: 8px;
-  margin-top: 36px;
+  margin-top: 25px;
+  padding-top: 10px;
 }
 
 .js-logo {
@@ -426,6 +450,5 @@ button {
 }
 
 hr {
-  width: 327px;
-  height: 1px;
+  width: 100%;
 }
