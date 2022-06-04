@@ -6,7 +6,7 @@
 
 body {
   font-family: "poppins", sans-serif;
-  background: #E5E5E5;
+  background: #e5e5e5;
 }
 
 main.main-bx {
@@ -57,7 +57,6 @@ header.head-logo-bx {
   background-image: url(../images/header-shapes\ mobile@2x.png);
   background-repeat: no-repeat;
   background-size: contain;
-
 }
 
 .introduction {
@@ -72,8 +71,6 @@ header.head-logo-bx {
 } */
 
 /* Title description part of the portfolio */
-
-
 
 .title {
   font-family: "poppins", sans-serif;
@@ -316,7 +313,7 @@ header.head-logo-bx {
   padding: 4px 12px;
 }
 
-.project-btn{
+.project-btn {
   width: 100%;
 }
 
@@ -332,12 +329,12 @@ header.head-logo-bx {
 
 .details-button:hover {
   background-color: #6070ff;
-  color:white
+  color: white;
 }
 
 .details-button:active {
   background-color: white;
-  color:#6070ff
+  color: #6070ff;
 }
 
 button {
@@ -376,9 +373,9 @@ button {
   margin: auto;
   border-top-right-radius: 80px;
   padding: 20px;
-    line-height: 24px;
-    font-weight: 400;
-    font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  font-size: 16px;
 }
 
 .btn-resume {
@@ -428,8 +425,6 @@ button {
   height: 16px;
   margin-left: 159px;
 }
-
-
 
 .languages-list {
   display: flex;
