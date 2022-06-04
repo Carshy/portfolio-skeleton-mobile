@@ -278,6 +278,16 @@ button {
   background: #fff;
 }
 
+.btn button:hover {
+  background-color: #36b39e;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn button:focus {
+  background-color: #36b40e;
+}
+
 /* Section Three: About Myself */
 
 .btn-resume {
@@ -296,6 +306,16 @@ button {
   border: 1px solid #6070ff;
   border-radius: 8px;
   left: 0;
+}
+
+.btn-resume button:hover {
+  background-color: #36b39e;
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.btn-resume button:focus {
+  background-color: #36b40e;
 }
 
 .languages-p {
