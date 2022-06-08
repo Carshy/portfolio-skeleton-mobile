@@ -442,6 +442,7 @@ footer.footer-bx {
   margin: auto;
   top: 0;
 }
+
 .contact-form {
   display: flex;
   flex-direction: column;
@@ -453,7 +454,6 @@ footer.footer-bx {
   left: 0px;
   background: #6070ff;
   color: #fff;
-  border-top-left-radius: 25px;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   text-align: center;
@@ -473,6 +473,7 @@ footer.footer-bx {
 .contacts-texts {
   margin-bottom: 28px;
 }
+
 .contacts-texts h1 {
   font-weight: 700;
   font-size: 40px;
@@ -501,7 +502,6 @@ form .contacts-lists {
   border-radius: 8px;
   background: #fff;
   margin-bottom: 20px;
-  padding: 12px;
   width: 100%;
   padding: 18px 24px;
   font-style: normal;
@@ -519,7 +519,6 @@ form .contacts-lists {
   border-radius: 8px;
   background: #fff;
   margin-bottom: 20px;
-  padding: 12px;
   width: 100%;
   padding: 18px 24px;
   font-style: normal;
