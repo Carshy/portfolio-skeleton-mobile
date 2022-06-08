@@ -599,9 +599,6 @@ form .contacts-lists {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
   border: none;
