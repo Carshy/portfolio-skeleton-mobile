@@ -432,7 +432,12 @@ button {
   margin-left: 12px;
 }
 
-hr {
+.hr-frame {
+  margin-bottom: 71px;
+}
+
+.hr-skills {
+  margin-bottom: 113.85px;
   width: 100%;
 }
 
@@ -461,6 +466,7 @@ footer.footer-bx {
   background-repeat: no-repeat;
   background-size: contain;
   border-radius: 75px 0 0 0;
+  margin-top: -21px;
 }
 
 .contacts-bx {
@@ -584,6 +590,10 @@ form .contacts-lists {
 }
 
 .btn-inpt {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
   width: 108px;
   height: 24px;
   font-weight: 500;
@@ -595,4 +605,28 @@ form .contacts-lists {
   letter-spacing: 0.03em;
   color: #6070ff;
   border: none;
+}
+
+.button-inpt:hover {
+  background-color: #6070ff;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.btn-inpt:hover {
+  background-color: #6070ff;
+  color: white;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.button-inpt:active {
+  background-color: white;
+  color: #6070ff;
+}
+
+.btn-inpt:active {
+  background-color: white;
+  color: #6070ff;
 }
