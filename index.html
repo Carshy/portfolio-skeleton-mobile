@@ -185,27 +185,27 @@
                     <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
                 </div>
     
-                <form action="#" method="post">
+                <form id="forms" action="https://formspree.io/f/mdobjgon" method="POST">
                     <ul class="contacts-lists">
                         <li class="name-inpt">
-                            <input class="inpt-bx" type="text" name="name_text" id="name" max="30" placeholder="Enter your name here" required>
+                            <input class="inpt-bx" type="text" name="name" id="name" maxlength="30" placeholder="Enter your name here" required>
                         </li>
     
                         <li class="email-inpt">
-                            <input class="inpt-bx" type="email" name="email_text" id="name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email here" required>
+                            <input class="inpt-bx" type="email" name="email" id="name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email here" required>
                         </li>
     
                         <li class="textarea-inpt">
-                            <textarea class="txtarea-bx" max="500" required>Write your message here</textarea>
+                            <textarea class="txtarea-bx" maxlength="500" placeholder="Write your message here" required></textarea>
                         </li>
     
                         <li class="button-inpt">
-                            <button class="btn-inpt" type="button">Get In Touch</button>
+                            <button class="btn-inpt" type="submit">Get In Touch</button>
                         </li>
                     </ul>
                 </form>
             </div>
-        <!-- </section> -->
+        </section>
     </footer>
 </body>
 </html>
