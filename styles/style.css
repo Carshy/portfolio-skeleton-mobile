@@ -455,17 +455,16 @@ footer.footer-bx {
   align-items: center;
   position: relative;
   width: 375px;
-  height: 718px;
+  height: 779px;
   background: #6070ff;
   color: #fff;
   font-family: "Poppins", sans-serif;
   font-style: normal;
   text-align: center;
-  background-image: url(../images/header-shapes\ mobile@2x.png);
-  margin-bottom: 10px;
+  background-image: url(../images/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  border-radius: 75px 0 0 0;
+  background-size: cover;
+  border-radius: 95px 0 0 0;
   margin-top: -21px;
 }
 
@@ -476,6 +475,7 @@ footer.footer-bx {
 }
 
 .contacts-texts {
+  margin-top: 66px;
   margin-bottom: 28px;
 }
 
@@ -496,29 +496,12 @@ footer.footer-bx {
 }
 
 form .contacts-lists {
-  list-style-type: none;
+  /* list-style-type: none; */
   padding: 0;
   margin: 0;
 }
 
-.name-inpt {
-  height: 48px;
-  border: none;
-  border-radius: 8px;
-  background: #fff;
-  margin-bottom: 20px;
-  width: 100%;
-  padding: 18px 24px;
-  font-style: normal;
-  font-size: 17px;
-  font-weight: 400;
-  left: 16px;
-  right: 38px;
-  top: calc(50% - 18px / 2);
-  color: #172b4d;
-}
-
-.email-inpt {
+.contact-inpt {
   height: 48px;
   border: none;
   border-radius: 8px;
@@ -536,15 +519,9 @@ form .contacts-lists {
 }
 
 .inpt-bx {
-  width: 273;
   height: 18px;
-  padding: 15px 38px 15px 16px;
-  left: 16px;
-  right: 38px;
-  top: calc(50% - 18px / 2);
   font-weight: 400;
   font-size: 17px;
-  line-height: 20px;
   display: flex;
   align-items: center;
   color: #172b4d;
@@ -564,13 +541,7 @@ form .contacts-lists {
 .txtarea-bx {
   width: 273px;
   height: 140px;
-  padding: 15px 38px 15px 16px;
   border: none;
-  left: 16px;
-  right: 38px;
-  top: 15px;
-  bottom: 15px;
-  font-weight: 400;
   font-size: 15px;
   line-height: 24px;
   color: #b3bac5;
