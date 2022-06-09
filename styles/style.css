@@ -356,7 +356,7 @@ button {
 }
 
 .introduction-about-bx {
-  width: 327px;
+  width: 375px;
   background: white;
   margin: auto;
   border-top-right-radius: 80px;
@@ -463,9 +463,10 @@ footer.footer-bx {
   text-align: center;
   background-image: url(../images/contact\ form\ shapes-mobile@2x.png);
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: right;
   border-radius: 95px 0 0 0;
-  margin-top: -21px;
+  margin-top: -46px;
 }
 
 .contacts-bx {
