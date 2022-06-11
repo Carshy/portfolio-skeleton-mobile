@@ -18,9 +18,22 @@ main.main-bx {
 
 /* The header: Navigation Section */
 
-header-section {
+.header-section {
   width: 375px;
   background: white;
+}
+
+.connect a {
+  width: 117px;
+  height: 24px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  text-decoration: none;
+  margin-left: 24px;
+  margin-right: 24px;
 }
 
 .my-logo {
@@ -32,7 +45,7 @@ header-section {
   text-decoration: none;
   width: 76px;
   height: 20px;
-  font-family: "Poppins";
+  font-family: "Poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -117,19 +130,6 @@ header.header-section {
   padding-top: 20px;
   margin-top: 12px;
   margin-bottom: 15.03px;
-}
-
-.connect a {
-  width: 117px;
-  height: 24px;
-  font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
-  text-decoration: none;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .social-media ul {
@@ -459,14 +459,6 @@ button {
   height: 20px;
 }
 
-.menu {
-  display: flex;
-  width: 117px;
-  height: 24px;
-  align-items: center;
-  padding-right: 30px;
-}
-
 .btn-resume {
   padding-left: 20px;
 }
@@ -707,7 +699,6 @@ form .contacts-lists {
 }
 /* Desktop Version-------------------------------------------------------------------------------------- */
 
-/* Section One: The Header and Headlines section */
 @media screen and (min-width: 768px) {
   /* The header section */
 
@@ -724,6 +715,26 @@ form .contacts-lists {
     width: 100%;
     height: auto;
     background: white;
+  }
+
+  .connect1 a {
+    width: 117px;
+    height: 24px;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7f8cff;
+    text-decoration: none;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .connect a {
+    width: 920px;
+    margin-left: 18.056%;
+    line-height: 24px;
+    margin-top: -9%;
   }
 
   nav {
@@ -819,13 +830,6 @@ form .contacts-lists {
     width: 100%;
     height: fit-content;
     margin-top: 45px;
-  }
-
-  .connect a {
-    width: 920px;
-    margin-left: 18.056%;
-    line-height: 24px;
-    margin-top: -9%;
   }
 
   .social-media ul {
@@ -935,7 +939,7 @@ form .contacts-lists {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 24px 0px;
+    padding: 24px 0;
     width: 496px;
     height: 40px;
   }
@@ -1022,7 +1026,7 @@ form .contacts-lists {
   .text-about-myself {
     width: 447px;
     height: 102px;
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -1034,19 +1038,6 @@ form .contacts-lists {
     padding-top: 20px;
     margin-top: 12px;
     margin-bottom: 15.03px;
-  }
-
-  .connect1 a {
-    width: 117px;
-    height: 24px;
-    font-family: "poppins", sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    color: #7f8cff;
-    text-decoration: none;
-    margin-left: 24px;
-    margin-right: 24px;
   }
 
   .social-handles {
@@ -1131,10 +1122,8 @@ form .contacts-lists {
 
   .button-inpt {
     padding: 12px 16px;
-    /* position: absolute; */
     width: 140px;
     height: 48px;
-    /* left: 24px; */
     background: #fff;
     border-radius: 8px;
     margin-left: 42%;
@@ -1159,7 +1148,6 @@ form .contacts-lists {
     width: 569px;
     height: 170px;
     border: 1px solid #cfd8dc;
-    /* border-radius: 8px; */
     background: #fff;
     padding: 12px;
     margin-bottom: 22px;
@@ -1177,25 +1165,13 @@ form .contacts-lists {
   .contacts-texts p {
     width: 569px;
     height: 102px;
-
-    font-family: "Poppins";
+    font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
-    /* or 140% */
-
     text-align: center;
-
-    /* Primary/B50 */
-
     color: #ebebff;
-  }
-
-  footer.footer-bx {
-    width: 100%;
-    margin: auto;
-    top: 0;
   }
 
   .languages-list {
@@ -1207,13 +1183,7 @@ form .contacts-lists {
     margin-top: 25px;
     padding-top: 10px;
     margin-right: 12px;
-    padding: 2px;
     width: 122px;
     height: 120px;
-
-    /* Neutrals/N10 */
-
-    background: #f7f7f9;
-    border-radius: 8px;
   }
 }
