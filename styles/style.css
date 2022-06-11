@@ -54,6 +54,14 @@ main.main-bx {
   align-items: center;
   text-align: center;
   color: #6070ff;
+  transition-duration: 0.5s;
+}
+
+.my-logo h1 a:hover {
+  background-color: #6070ff;
+  color: white;
+  margin-left: 18px;
+  border-radius: 8px;
 }
 
 h1.intro-title-bx {
