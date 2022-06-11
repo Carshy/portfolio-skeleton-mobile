@@ -14,11 +14,60 @@ main.main-bx {
   margin: auto;
 }
 
+/* The Mobile Version---------------------------------------------------------------------------- */
+
+/* The header: Navigation Section */
+
+.header-section {
+  width: 375px;
+  background: white;
+}
+
+.connect a {
+  width: 117px;
+  height: 24px;
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  text-decoration: none;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.my-logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.my-logo h1 a {
+  text-decoration: none;
+  width: 76px;
+  height: 20px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #6070ff;
+  transition-duration: 0.5s;
+}
+
+.my-logo h1 a:hover {
+  background-color: #6070ff;
+  color: white;
+  margin-left: 18px;
+  border-radius: 8px;
+}
+
 h1.intro-title-bx {
   font-weight: 700;
   font-size: 40px;
   line-height: 52px;
-  padding-left: 20px;
   padding-top: 56px;
 }
 
@@ -34,12 +83,8 @@ header nav ul {
   bottom: 38px;
 }
 
-.logo a {
-  text-decoration: none;
-}
-
-header.head-logo-bx {
-  width: 375px;
+header.header-section {
+  width: 100%;
   background: white;
 }
 
@@ -65,7 +110,7 @@ header.head-logo-bx {
 
 /* Title description part of the portfolio */
 
-.title {
+.title-about {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 700;
@@ -75,7 +120,7 @@ header.head-logo-bx {
   margin-top: 60px;
 }
 
-.text {
+.text-bx {
   font-family: "poppins", sans-serif;
   font-style: normal;
   font-weight: 400px;
@@ -93,19 +138,6 @@ header.head-logo-bx {
   padding-top: 20px;
   margin-top: 12px;
   margin-bottom: 15.03px;
-}
-
-.connect a {
-  width: 117px;
-  height: 24px;
-  font-family: "poppins", sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  color: #7f8cff;
-  text-decoration: none;
-  margin-left: 24px;
-  margin-right: 24px;
 }
 
 .social-media ul {
@@ -348,15 +380,15 @@ button {
   color: white;
 }
 
-/* Section Three: About Myself */
+/* Section Three: About Myself------------------------------------------------------ */
 
 .about-myself {
-  width: 375px;
+  width: 100%;
   height: 1263px;
 }
 
 .introduction-about-bx {
-  width: 375px;
+  width: 100%;
   background: white;
   margin: auto;
   border-top-right-radius: 80px;
@@ -364,6 +396,75 @@ button {
   line-height: 24px;
   font-weight: 400;
   font-size: 16px;
+}
+
+.title-about-myself {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+  margin-top: 60px;
+}
+
+.text-about-myself {
+  width: 100%;
+  height: 144px;
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.connect1 {
+  font-family: "poppins", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #7f8cff;
+  text-decoration: none;
+  margin-right: 24px;
+}
+
+.about-social-media ul {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.about-social-media ul li {
+  list-style-type: none;
+  padding-right: 10px;
+}
+
+.twitter-logo1 {
+  width: 19.99px;
+  height: 19.99px;
+}
+
+.linkedin-logo1 {
+  width: 12.71px;
+  height: 16.97px;
+}
+
+.medium-logo1 {
+  width: 20px;
+  height: 16px;
+}
+
+.github-logo1 {
+  width: 17.99px;
+  height: 20px;
+}
+
+.angellist-logo1 {
+  width: 14.17px;
+  height: 20px;
 }
 
 .btn-resume {
@@ -441,7 +542,7 @@ button {
   width: 100%;
 }
 
-/* Section Four: Contact Form */
+/* Section Four: Contact Form-------------------------------------------------------------- */
 footer.footer-bx {
   width: 375px;
   margin: auto;
@@ -466,7 +567,7 @@ footer.footer-bx {
   background-size: contain;
   background-position: right;
   border-radius: 95px 0 0 0;
-  margin-top: -46px;
+  margin-top: -493px;
 }
 
 .contacts-bx {
@@ -497,7 +598,6 @@ footer.footer-bx {
 }
 
 form .contacts-lists {
-  /* list-style-type: none; */
   padding: 0;
   margin: 0;
 }
@@ -598,4 +698,504 @@ form .contacts-lists {
 .btn-inpt:active {
   background-color: white;
   color: #6070ff;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-items {
+    display: none;
+  }
+}
+
+/* Desktop Version-------------------------------------------------------------------------------------- */
+
+@media screen and (min-width: 768px) {
+  /* The header section */
+
+  main.main-bx {
+    width: 100%;
+    margin: auto;
+  }
+
+  .humberger {
+    display: none;
+  }
+
+  .header-section {
+    width: 100%;
+    height: auto;
+    background: white;
+  }
+
+  nav h1 a {
+    width: 76px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+    text-decoration: none;
+  }
+
+  .connect1 a {
+    width: 117px;
+    height: 24px;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #7f8cff;
+    text-decoration: none;
+    margin-left: 24px;
+    margin-right: 24px;
+  }
+
+  .connect a {
+    width: 920px;
+    margin-left: 18.056%;
+    line-height: 24px;
+    margin-top: -9%;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2% 6%;
+  }
+
+  .nav-items ul li {
+    position: relative;
+    display: inline-block;
+    list-style-type: none;
+    padding: 8px 12px;
+  }
+
+  .nav-items ul li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #344563;
+  }
+
+  /* The headline section */
+
+  .headlines {
+    border-radius: 0 0 0 75px;
+    position: relative;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    width: 100%;
+    height: 916px;
+    background-image: url(../images/Header\ bg@2x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;
+  }
+
+  h1.intro-title-bx {
+    width: 920px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-left: 18.056%;
+    letter-spacing: 0.37px;
+    color: #091e42;
+    margin-top: 21%;
+  }
+
+  .text-bx {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400px;
+    color: #344563;
+    margin-left: 18.056%;
+    width: 920px;
+    height: 98px;
+    font-size: 20px;
+    line-height: 28px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+  }
+
+  .connect {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    width: 100%;
+    height: fit-content;
+    margin-top: 45px;
+  }
+
+  .social-media ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    margin-left: 18.056%;
+    margin-top: -4%;
+  }
+
+  /* Section Two: Works Section------------------ */
+
+  .main-container {
+    display: grid;
+    grid-template-columns: 100%;
+    width: 100%;
+    padding-bottom: 6%;
+    padding-top: 6%;
+    height: 2500px;
+    gap: 5%;
+  }
+
+  .details {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px;
+    gap: 12px;
+    width: 1156px;
+    height: 496px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    border-radius: 24px;
+    margin-bottom: 71px;
+  }
+
+  .snapshot {
+    width: 50%;
+    height: 100%;
+    border-radius: 8px;
+    margin-top: 24px;
+    margin-left: 24px;
+    margin-bottom: 24px;
+  }
+
+  .works-skills {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+    height: 100%;
+    gap: 1%;
+    padding: 3%;
+    padding-top: 4%;
+  }
+
+  .tonic {
+    width: 496px;
+    height: 46px;
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+    color: #091e42;
+  }
+
+  .descriptive-paragraph {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+    width: 496px;
+    height: 53px;
+  }
+
+  .project-btn {
+    width: 100%;
+    margin-top: 14px;
+  }
+
+  .details-button {
+    box-sizing: border-box;
+    padding: 12px;
+    width: 124px;
+    height: 48px;
+    margin-top: 16px;
+    border: 1px solid #6070ff;
+    border-radius: 8px;
+    transition-duration: 0.6s;
+  }
+
+  .details-button:hover {
+    background-color: #6070ff;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    margin-left: 12px;
+    padding: 10px 9px;
+  }
+
+  .details-button:active {
+    background-color: white;
+    color: #6070ff;
+  }
+
+  .experience-bx {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 0;
+    width: 496px;
+    height: 40px;
+  }
+
+  .canopy {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #344563;
+    list-style-type: none;
+    width: 96px;
+    height: 24px;
+  }
+
+  .back-end {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6b778c;
+    width: 100%;
+    height: 24px;
+  }
+
+  .year {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #6b778c;
+    width: 38px;
+    height: 24px;
+  }
+
+  /* Section Three: About Myself Section-------------------------------------- */
+  .about-myself {
+    margin-top: 200px;
+  }
+
+  .introduction-about-bx {
+    width: 100%;
+    height: auto;
+    border-top-right-radius: 80px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    background: #fff;
+    border: 1px solid #dfe1e6;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .about-myself1 {
+    width: 50%;
+    height: 50%;
+    margin-left: 142px;
+    margin-top: 142px;
+  }
+
+  .about-myself2 {
+    width: 46%;
+    height: 50%;
+  }
+
+  .title-about-myself {
+    font-family: "poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 52px;
+    width: 447px;
+    height: 114px;
+    display: flex;
+    align-items: center;
+    color: #091e42;
+    margin-top: -184px;
+  }
+
+  .text-about-myself {
+    width: 447px;
+    height: 102px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  .connect1 {
+    padding-top: 20px;
+    margin-top: 12px;
+    margin-bottom: 15.03px;
+  }
+
+  .social-handles {
+    margin-left: 23px;
+  }
+
+  .about-social-media ul {
+    display: flex;
+    flex-direction: row;
+    margin-top: 31px;
+    margin-left: 8px;
+  }
+
+  .about-social-media ul li {
+    list-style-type: none;
+    padding-right: 10px;
+  }
+
+  .twitter-logo1 {
+    width: 19.99px;
+    height: 19.99px;
+  }
+
+  .linkedin-logo1 {
+    width: 12.71px;
+    height: 16.97px;
+  }
+
+  .medium-logo1 {
+    width: 20px;
+    height: 16px;
+  }
+
+  .github-logo1 {
+    width: 17.99px;
+    height: 20px;
+  }
+
+  .angellist-logo1 {
+    width: 14.17px;
+    height: 20px;
+  }
+
+  .btn-resume {
+    padding-left: 20px;
+    margin-left: -25px;
+  }
+
+  .about-languages {
+    display: flex;
+    flex-direction: row;
+    margin-right: 12px;
+  }
+
+  /* Section Four: Contact Form-------------------------- */
+
+  footer.footer-bx {
+    width: 100%;
+    top: 0;
+  }
+
+  .contact-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 846px;
+    background: #6070ff;
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    text-align: center;
+    background-image: url(../images/contact\ form\ shapes-mobile@2x.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+    border-radius: 95px 0 0 0;
+    margin-top: -694px;
+  }
+
+  .button-inpt {
+    padding: 12px 16px;
+    width: 140px;
+    height: 48px;
+    background: #fff;
+    border-radius: 8px;
+    margin-left: 42%;
+  }
+
+  .btn-inpt {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #fff;
+    width: 108px;
+    height: 24px;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    border: none;
+  }
+
+  .textarea-inpt {
+    width: 569px;
+    height: 170px;
+    border: 1px solid #cfd8dc;
+    background: #fff;
+    padding: 12px;
+    margin-bottom: 22px;
+  }
+
+  .txtarea-bx {
+    width: 339px;
+    height: 140px;
+    border: none;
+    font-size: 15px;
+    line-height: 24px;
+    color: #b3bac5;
+  }
+
+  .contacts-texts p {
+    width: 569px;
+    height: 102px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    color: #ebebff;
+  }
+
+  .languages-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #f7f7f9;
+    border-radius: 8px;
+    margin-top: 25px;
+    padding-top: 10px;
+    margin-right: 12px;
+    width: 122px;
+    height: 120px;
+  }
 }
