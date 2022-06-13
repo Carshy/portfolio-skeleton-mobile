@@ -54,6 +54,14 @@ main.main-bx {
   align-items: center;
   text-align: center;
   color: #6070ff;
+  transition-duration: 0.5s;
+}
+
+.my-logo h1 a:hover {
+  background-color: #6070ff;
+  color: white;
+  margin-left: 18px;
+  border-radius: 8px;
 }
 
 h1.intro-title-bx {
@@ -922,6 +930,7 @@ form .contacts-lists {
     margin-top: 16px;
     border: 1px solid #6070ff;
     border-radius: 8px;
+    transition-duration: 0.6s;
   }
 
   .details-button:hover {
@@ -929,6 +938,8 @@ form .contacts-lists {
     color: white;
     cursor: pointer;
     opacity: 0.9;
+    margin-left: 12px;
+    padding: 10px 9px;
   }
 
   .details-button:active {
