@@ -69,7 +69,7 @@ h1.intro-title-bx {
 }
 
 /* Section One: headlines */
-header nav ul {
+/* header nav ul {
   position: relative;
   display: flex;
   justify-content: space-between;
@@ -78,7 +78,7 @@ header nav ul {
   left: 24px;
   top: 30px;
   bottom: 38px;
-}
+} */
 
 header.header-section {
   width: 100%;
@@ -699,8 +699,82 @@ form .contacts-lists {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-items {
+  /* .nav-bar {
+    min-height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+  } */
+  /* .nav-menu {
     display: none;
+  } */
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bars {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #6070ff;
+  }
+
+  .hamburger.active .bars:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bars:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bars:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    gap: 0;
+    top: 70px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    /* align-items: center; */
+    transition: 0.3s;
+  }
+
+  .nav-menu li {
+    margin: 16px 0;
+  }
+
+  .nav-menu.active {
+    left: 0;
+  }
+
+  .nav-menu li a {
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #344563;
   }
 }
 
@@ -720,7 +794,7 @@ form .contacts-lists {
     margin: auto;
   }
 
-  .humburger {
+  .hamburger {
     display: none;
     cursor: pointer;
   }
@@ -731,7 +805,7 @@ form .contacts-lists {
     background: white;
   }
 
-  nav h1 a {
+  .nav-bar h1 a {
     width: 76px;
     height: 20px;
     font-family: "Poppins", sans-serif;
@@ -769,21 +843,21 @@ form .contacts-lists {
     text-decoration: none;
   }
 
-  nav {
+  .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
   }
 
-  .nav-items ul li {
+  .nav-menu li {
     position: relative;
     display: inline-block;
     list-style-type: none;
     padding: 8px 12px;
   }
 
-  .nav-items ul li a {
+  .nav-menu li a {
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
