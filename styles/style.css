@@ -742,7 +742,7 @@ form .contacts-lists {
     display: flex;
     flex-direction: column;
     text-align: center;
-    width: 100%;
+    width: 375px;
     /* align-items: center; */
     transition: 0.3s;
     backdrop-filter: blur(6px);
