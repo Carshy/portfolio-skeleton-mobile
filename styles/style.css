@@ -741,14 +741,14 @@ form .contacts-lists {
   .nav-menu.active {
     top: 0;
     z-index: 10;
-    width: 375px;
+    width: 100%;
     height: 100%;
-    padding: 100px 0 0 28px;
+    padding: 1px 0 0 28px;
   }
 
   #menu-x {
-    margin-left: 91%;
-    font-size: 16px !important;
+    margin-left: 83%;
+    font-size: 14px;
   }
 
   .nav-menu li a {
