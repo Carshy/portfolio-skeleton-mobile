@@ -747,6 +747,7 @@ form .contacts-lists {
     transition: 0.3s;
     backdrop-filter: blur(6px);
     background-color: rgb(31 57 255 / 65%);
+
   }
 
   .nav-menu li {
@@ -758,7 +759,9 @@ form .contacts-lists {
     /* top: 0; */
     /* left: 0; */
     z-index: 10;
-    height: 85%;
+    top:0;
+    width: 100%;
+    height: 100%;
   }
 
   .nav-menu li a {
