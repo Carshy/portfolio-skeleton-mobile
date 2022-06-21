@@ -68,18 +68,6 @@ h1.intro-title-bx {
   padding-top: 56px;
 }
 
-/* Section One: headlines */
-/* header nav ul {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  height: 45px;
-  left: 24px;
-  top: 30px;
-  bottom: 38px;
-} */
-
 header.header-section {
   width: 100%;
   background: white;
@@ -736,14 +724,10 @@ form .contacts-lists {
 
   .nav-menu {
     position: fixed;
-    /* left: -100%; */
     gap: 0;
-    /* top: 70px; */
     display: flex;
     flex-direction: column;
-    /* text-align: center; */
     width: 375px;
-    /* align-items: center; */
     transition: 0.3s;
     backdrop-filter: blur(6px);
     background-color: rgb(31 57 255 / 65%);
@@ -755,11 +739,8 @@ form .contacts-lists {
   }
 
   .nav-menu.active {
-    /* top: 0; */
-    /* left: 0; */
     top: 0;
     z-index: 10;
-    top: 0;
     width: 375px;
     height: 100%;
     padding: 100px 0 0 28px;
@@ -776,7 +757,6 @@ form .contacts-lists {
     font-weight: 500;
     font-size: 25px;
     line-height: 20px;
-    /* display: flex; */
     align-items: center;
     text-align: center;
     color: white;
@@ -815,21 +795,6 @@ form .contacts-lists {
     background: white;
   }
 
-  .nav-bar h1 a {
-    width: 76px;
-    height: 20px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
-    text-decoration: none;
-  }
-
   .connect1 a {
     width: 117px;
     height: 24px;
@@ -850,6 +815,21 @@ form .contacts-lists {
     font-weight: 500;
     font-size: 16px;
     color: #7f8cff;
+    text-decoration: none;
+  }
+
+  .nav-bar h1 a {
+    width: 76px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
     text-decoration: none;
   }
 
@@ -901,7 +881,7 @@ form .contacts-lists {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     position: absolute;
     width: 63.89%;
