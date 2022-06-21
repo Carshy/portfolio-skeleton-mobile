@@ -741,13 +741,12 @@ form .contacts-lists {
     /* top: 70px; */
     display: flex;
     flex-direction: column;
-    text-align: center;
+    /* text-align: center; */
     width: 375px;
     /* align-items: center; */
     transition: 0.3s;
     backdrop-filter: blur(6px);
     background-color: rgb(31 57 255 / 65%);
-
   }
 
   .nav-menu li {
@@ -758,10 +757,17 @@ form .contacts-lists {
   .nav-menu.active {
     /* top: 0; */
     /* left: 0; */
+    top: 0;
     z-index: 10;
-    top:0;
-    width: 100%;
+    top: 0;
+    width: 375px;
     height: 100%;
+    padding: 100px 0 0 28px;
+  }
+
+  #menu-x {
+    margin-left: 91%;
+    font-size: 16px !important;
   }
 
   .nav-menu li a {
@@ -796,6 +802,11 @@ form .contacts-lists {
   .hamburger {
     display: none;
     cursor: pointer;
+  }
+
+  #menu-x {
+    display: none;
+    color: #fff !important;
   }
 
   .header-section {
