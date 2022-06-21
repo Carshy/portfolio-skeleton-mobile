@@ -739,9 +739,11 @@ form .contacts-lists {
   }
 
   .nav-menu.active {
+    left: 0;
+    right: 0;
     top: 0;
     z-index: 10;
-    width: 100%;
+    width: 375px;
     height: 100%;
     padding: 1px 0 0 28px;
   }
