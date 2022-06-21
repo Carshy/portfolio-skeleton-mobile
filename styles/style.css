@@ -699,17 +699,6 @@ form .contacts-lists {
 }
 
 @media screen and (max-width: 768px) {
-  /* .nav-bar {
-    min-height: 70px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 24px;
-  } */
-  /* .nav-menu {
-    display: none;
-  } */
-
   .hamburger {
     display: block;
     cursor: pointer;
@@ -747,34 +736,41 @@ form .contacts-lists {
 
   .nav-menu {
     position: fixed;
-    left: -100%;
+    /* left: -100%; */
     gap: 0;
-    top: 70px;
+    /* top: 70px; */
     display: flex;
     flex-direction: column;
     text-align: center;
     width: 100%;
     /* align-items: center; */
     transition: 0.3s;
+    backdrop-filter: blur(6px);
+    background-color: rgb(31 57 255 / 65%);
   }
 
   .nav-menu li {
     margin: 16px 0;
+    color: white;
   }
 
   .nav-menu.active {
-    left: 0;
+    /* top: 0; */
+    /* left: 0; */
+    z-index: 10;
+    height: 85%;
   }
 
   .nav-menu li a {
     text-decoration: none;
+    font-family: "poppins", sans-serif;
     font-weight: 500;
-    font-size: 15px;
+    font-size: 25px;
     line-height: 20px;
-    display: flex;
+    /* display: flex; */
     align-items: center;
     text-align: center;
-    color: #344563;
+    color: white;
   }
 }
 
