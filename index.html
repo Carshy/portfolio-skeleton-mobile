@@ -12,11 +12,11 @@
     <main class="main-bx">
 
         <header class="header-section">
-            <nav>
+            <nav class="nav-bar">
                 <div class="my-logo">
                     <h1><a href="#">My Logo</a></h1>
 
-                    <div class="humburger">
+                    <div class="hamburger">
                         <span class="bars"></span>
                         <span class="bars"></span>
                         <span class="bars"></span>
@@ -25,17 +25,12 @@
                 </div>
                 
                 <div class="nav-items">
-                    <ul>
-                        <li><a href="#">Portfolio</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
+                    <ul class="nav-menu">
+                        <li><a class="nav-link" id="menu-x" href="#">X</a></li>
+                        <li><a class="nav-link" href="#portfolio">Portfolio</a></li>
+                        <li><a class="nav-link" href="#about">About</a></li>
+                        <li><a class="nav-link" href="#contact">Contact</a></li>
                     </ul>
-
-                    <!-- <div class="humburger">
-                        <span class="bars"></span>
-                        <span class="bars"></span>
-                        <span class="bars"></span>
-                    </div> -->
                 </div>
                 
             </nav>
@@ -61,7 +56,7 @@
         </section>
 
         <!--Section Two: Works-->
-        <section class="works">
+        <section id="portfolio" class="works">
             <div class="main-container">
 
                 <div class="details">
@@ -152,7 +147,7 @@
         </section>
 
         <!--Section Three: About Myself-->
-        <section class="about-myself">
+        <section id="about" class="about-myself">
         <div class="introduction-about-bx">
             <div class="about-myself1">
                 <h1 class="title-about-myself">About<br> Myself</h1>
@@ -217,7 +212,7 @@
 
     <footer class="footer-bx">
         <!-- Section Four: Contact Form -->
-        <section class="contact-form"> 
+        <section id="contact" class="contact-form"> 
             <div class="contacts-bx">
     
                 <div class="contacts-texts">
@@ -247,5 +242,6 @@
             </div>
         </section>
     </footer>
+    <script src="/script.js"></script>
 </body>
 </html>

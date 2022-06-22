@@ -68,18 +68,6 @@ h1.intro-title-bx {
   padding-top: 56px;
 }
 
-/* Section One: headlines */
-header nav ul {
-  position: relative;
-  display: flex;
-  justify-content: space-between;
-  list-style-type: none;
-  height: 45px;
-  left: 24px;
-  top: 30px;
-  bottom: 38px;
-}
-
 header.header-section {
   width: 100%;
   background: white;
@@ -699,8 +687,83 @@ form .contacts-lists {
 }
 
 @media screen and (max-width: 768px) {
-  .nav-items {
-    display: none;
+  .hamburger {
+    display: block;
+    cursor: pointer;
+  }
+
+  .bars {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #6070ff;
+  }
+
+  .hamburger.active .bars:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bars:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bars:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  li {
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .nav-menu {
+    position: fixed;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    top: -100%;
+    transition: top 0.3s ease;
+    backdrop-filter: blur(6px);
+    background-color: rgb(31 57 255 / 65%);
+  }
+
+  .nav-menu li {
+    margin: 16px 0;
+    color: white;
+  }
+
+  .nav-menu.active {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    padding: 1px 0 0 28px;
+  }
+
+  #menu-x {
+    margin-left: 83%;
+    font-size: 14px;
+  }
+
+  .nav-menu li a {
+    text-decoration: none;
+    font-family: "poppins", sans-serif;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 20px;
+    align-items: center;
+    text-align: center;
+    color: white;
   }
 }
 
@@ -720,30 +783,20 @@ form .contacts-lists {
     margin: auto;
   }
 
-  .humburger {
+  .hamburger {
     display: none;
     cursor: pointer;
+  }
+
+  #menu-x {
+    display: none;
+    color: #fff !important;
   }
 
   .header-section {
     width: 100%;
     height: auto;
     background: white;
-  }
-
-  nav h1 a {
-    width: 76px;
-    height: 20px;
-    font-family: "Poppins", sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-    color: #6070ff;
-    text-decoration: none;
   }
 
   .connect1 a {
@@ -769,21 +822,36 @@ form .contacts-lists {
     text-decoration: none;
   }
 
-  nav {
+  .nav-bar h1 a {
+    width: 76px;
+    height: 20px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+    text-decoration: none;
+  }
+
+  .nav-bar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
   }
 
-  .nav-items ul li {
+  .nav-menu li {
     position: relative;
     display: inline-block;
     list-style-type: none;
     padding: 8px 12px;
   }
 
-  .nav-items ul li a {
+  .nav-menu li a {
     text-decoration: none;
     font-weight: 500;
     font-size: 15px;
@@ -817,7 +885,7 @@ form .contacts-lists {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 0px;
+    padding: 0;
     gap: 12px;
     position: absolute;
     width: 63.89%;
@@ -1002,6 +1070,7 @@ form .contacts-lists {
   }
 
   /* Section Three: About Myself Section-------------------------------------- */
+
   .about-myself {
     margin-top: 200px;
   }
