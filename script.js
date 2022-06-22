@@ -1,4 +1,3 @@
-// eslint linebreak-style: ["error", "windows"]
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const menuX = document.querySelector('menu-x');
