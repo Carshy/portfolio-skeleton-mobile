@@ -1079,7 +1079,7 @@ form .contacts-lists {
     flex-direction: column;
     width: 100%;
     height: 100%;
-    top: -100%;
+    top: -200%;
     /* transition: top 0.3s ease; */
     backdrop-filter: blur(6px);
     background-color: rgb(31 57 255 / 65%);
@@ -1135,13 +1135,24 @@ form .contacts-lists {
 
   .pop-snapshot {
     width: 1108px;
-    height: 340px;
+    height: 586px;
   }
 
   .pop-content {
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+
+  .pop-description {
+    width: 778px;
+    height: 382px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
   }
 
   /* end of popup window */
