@@ -1073,28 +1073,75 @@ form .contacts-lists {
   /* Popup Window */
 
   .popup-details {
-    display: none;
-    /* top: -100%; */
     position: fixed;
-    z-index: 1;
-    /* left: 100%;*/ 
-    /* left: 0; */
-    top: 0;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: dodgerblue;
-    /* background-color: rgba(0, 0, 0, 0.4); */
-    transition: 1s;
+    top: -100%;
+    /* transition: top 0.3s ease; */
+    backdrop-filter: blur(6px);
+    background-color: rgb(31 57 255 / 65%);
   }
 
   .popup-details.active {
+    left: 0;
     right: 0;
     top: 0;
     z-index: 10;
     width: 100%;
+    height: 100%;
     flex-direction: column;
     height: 100%;
     padding: 1px 0 0 28px;
+    /* top: -100%; */
+  }
+
+  .pop-background {
+    margin: auto;
+    background: #ffffff;
+    border: 1px solid #ebecf0;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    margin-top: 77px;
+    margin-bottom: 77px;
+    width: 1156px;
+    /* height: 1163px; */
+  }
+
+  .popup-experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 0;
+    width: 496px;
+    height: 40px;
+    gap: 24px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .pop-canopy {
+    list-style-type: none;
+  }
+
+  .pop-snapshot {
+    width: 1108px;
+    height: 340px;
+  }
+
+  .pop-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
   /* end of popup window */

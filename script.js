@@ -89,7 +89,5 @@ const popupDetails = document.querySelector('.popup-details');
 
 detailsBtn.addEventListener('click', () => {
   detailsBtn.classList.toggle('active');
-  popupDetails.classList.toggle('active');
-  
-  
+  popupDetails.classList.toggle('active'); 
 });
