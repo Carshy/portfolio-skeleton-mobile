@@ -686,6 +686,7 @@ form .contacts-lists {
   color: #6070ff;
 }
 
+/* ..............Mobile Menu for JS styling.................. */
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
@@ -1068,6 +1069,35 @@ form .contacts-lists {
     width: 38px;
     height: 24px;
   }
+
+  /* Popup Window */
+
+  .popup-details {
+    display: none;
+    /* top: -100%; */
+    position: fixed;
+    z-index: 1;
+    /* left: 100%;*/ 
+    /* left: 0; */
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: dodgerblue;
+    /* background-color: rgba(0, 0, 0, 0.4); */
+    transition: 1s;
+  }
+
+  .popup-details.active {
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    flex-direction: column;
+    height: 100%;
+    padding: 1px 0 0 28px;
+  }
+
+  /* end of popup window */
 
   /* Section Three: About Myself Section-------------------------------------- */
 
