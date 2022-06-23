@@ -1107,7 +1107,8 @@ form .contacts-lists {
     padding: 24px;
     margin-top: 77px;
     margin-bottom: 77px;
-    width: 1156px;
+    width: 59rem;
+    height: 43rem;
     /* height: 1163px; */
   }
 
@@ -1134,14 +1135,19 @@ form .contacts-lists {
   }
 
   .pop-snapshot {
-    width: 1108px;
-    height: 586px;
+    width: 55rem;
+    height: 20rem;
   }
 
   .pop-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    width: 85%;
+  }
+
+  .pop-description {
+    width: 36rem;
   }
 
   .pop-description {
