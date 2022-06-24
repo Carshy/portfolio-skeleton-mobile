@@ -788,14 +788,13 @@ form .contacts-lists {
     width: 375px;
     height: 100%;
     flex-direction: column;
-    /* padding: 1px 0 0 28px; */
   }
 
   .pop-background {
     margin: auto;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #ebecf0;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
     padding: 24px;
     width: 80.28%;
@@ -823,12 +822,10 @@ form .contacts-lists {
     height: 40px;
     gap: 24px;
     font-size: 15px;
-    line-height: 20px;
     color: #344563;
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 600;
-    font-size: 13px;
     line-height: 16px;
   }
 
@@ -857,13 +854,12 @@ form .contacts-lists {
     color: #344563;
   }
 
-  pop-languages {
+  .pop-languages {
     text-decoration: none;
     display: flex;
     flex-direction: row;
     align-items: center;
     gap: 12px;
-    /* margin-top: -143px; */
     margin-left: 28px;
   }
 
@@ -876,28 +872,6 @@ form .contacts-lists {
     margin-top: -63%;
     margin-left: 28px;
   }
-
-  .pop-languages-others a {
-    text-decoration: none;
-    background: #ebebff;
-    border-radius: 8px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    text-align: center;
-  }
-
-  .pop-languages a {
-    text-decoration: none;
-    background: #ebebff;
-    border-radius: 8px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    text-align: center;
-  }
-
-  /* .languages-arrange {
-    display: grid;
-  } */
 
   .pop-html {
     width: 53px;
@@ -917,10 +891,6 @@ form .contacts-lists {
     padding: 4px 84px 4px 4px;
   }
 
-  a {
-    text-decoration: none;
-  }
-
   .pop-btn {
     display: flex;
     flex-direction: row;
@@ -934,9 +904,9 @@ form .contacts-lists {
     flex-direction: row;
     align-items: center;
     padding: 4px 6px 4px 2px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #396df2;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 8px;
     height: 32px;
     gap: 4px;
@@ -1037,6 +1007,38 @@ form .contacts-lists {
     display: inline-block;
     list-style-type: none;
     padding: 8px 12px;
+  }
+
+  .pop-languages a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
+  }
+
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
+  }
+
+  .pop-languages-others a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
+  }
+
+  .pop-languages a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
   }
 
   .nav-menu li a {
@@ -1285,16 +1287,13 @@ form .contacts-lists {
 
   .pop-background {
     margin: auto;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #ebecf0;
     box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
     padding: 24px;
-    /* margin-top: 77px; */
-    /* margin-bottom: 77px; */
     width: 80.28%;
     height: 97%;
-    /* height: 1163px; */
   }
 
   .pop-title {
@@ -1358,7 +1357,6 @@ form .contacts-lists {
     flex-direction: row;
     align-items: center;
     gap: 12px;
-    /* margin-top: -143px; */
     margin-left: 28px;
   }
 
@@ -1370,24 +1368,6 @@ form .contacts-lists {
     gap: 12px;
     margin-top: -63%;
     margin-left: 28px;
-  }
-
-  .pop-languages-others a {
-    text-decoration: none;
-    background: #ebebff;
-    border-radius: 8px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    text-align: center;
-  }
-
-  .pop-languages a {
-    text-decoration: none;
-    background: #ebebff;
-    border-radius: 8px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    text-align: center;
   }
 
   .languages-arrange {
@@ -1429,17 +1409,12 @@ form .contacts-lists {
     flex-direction: row;
     align-items: center;
     padding: 4px 6px 4px 2px;
-    background: #ffffff;
+    background: #fff;
     border: 1px solid #396df2;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 8px;
     height: 32px;
     gap: 4px;
-  }
-
-  .see-live a {
-    color: #396df2;
-    font-size: 15px;
   }
 
   .see-live img {
