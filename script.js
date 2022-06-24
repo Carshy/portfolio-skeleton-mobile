@@ -1,7 +1,7 @@
 // *******JavaScript for Mobile Menu****** 
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
-const menuX = document.querySelector('menu-x');
+const menuX = document.querySelector('#menu-x');
 const navLink = document.querySelectorAll('.nav-link')
 
 hamburger.addEventListener('click', () => {
@@ -84,10 +84,23 @@ worksDetails.forEach((detail) => {
 });
 
 // *******JavaScript for Popup Window******
-const detailsBtn = document.querySelector('.details-button')
-const popupDetails = document.querySelector('.popup-details');
 
-detailsBtn.addEventListener('click', () => {
-  detailsBtn.classList.toggle('active');
-  popupDetails.classList.toggle('active'); 
+const detailsBtn = document.querySelectorAll('.details-button');
+const popupDetails = document.querySelector('.popup-details');
+const cancelX = document.querySelector('#cancel-X');
+
+detailsBtn.forEach(n => n.addEventListener('click', () => {
+  n.classList.toggle('active');
+  popupDetails.classList.toggle('active');
+}));
+
+// detailsBtn.addEventListener('click', () => {
+//   detailsBtn.classList.toggle('active');
+//   popupDetails.classList.toggle('active'); 
+  
+// });
+
+cancelX.addEventListener('click', () => {
+  popupDetails.classList.remove('active');
 });
+
