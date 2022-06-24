@@ -766,6 +766,200 @@ form .contacts-lists {
     text-align: center;
     color: white;
   }
+
+  /* Popup Window for mobile version */
+
+  .popup-details {
+    position: fixed;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 375px;
+    height: 823px;
+    top: -200%;
+    backdrop-filter: blur(6px);
+    background-color: rgb(31 57 255 / 65%);
+  }
+
+  .popup-details.active {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 375px;
+    height: 100%;
+    flex-direction: column;
+    /* padding: 1px 0 0 28px; */
+  }
+
+  .pop-background {
+    margin: auto;
+    background: #ffffff;
+    border: 1px solid #ebecf0;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    width: 80.28%;
+    height: 713px;
+  }
+
+  .pop-title {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .cancel-icon {
+    width: 12px;
+    height: 12px;
+    left: 6px;
+    top: 6px;
+  }
+
+  .popup-experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 0;
+    width: 496px;
+    height: 40px;
+    gap: 24px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .pop-canopy {
+    list-style-type: none;
+  }
+
+  .pop-snapshot {
+    margin: auto;
+    width: 95.8%;
+    height: 50.4%;
+  }
+
+  .pop-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pop-description {
+    margin-top: 59px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #344563;
+  }
+
+  pop-languages {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    /* margin-top: -143px; */
+    margin-left: 28px;
+  }
+
+  .pop-languages-others {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: -63%;
+    margin-left: 28px;
+  }
+
+  .pop-languages-others a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
+  }
+
+  .pop-languages a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
+  }
+
+  /* .languages-arrange {
+    display: grid;
+  } */
+
+  .pop-html {
+    width: 53px;
+    height: 24px;
+    padding: 4px 12px;
+  }
+
+  .pop-css {
+    width: 45px;
+    height: 24px;
+    padding: 4px 12px;
+  }
+
+  .pop-js {
+    width: 67px;
+    height: 24px;
+    padding: 4px 84px 4px 4px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .pop-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-left: 24px;
+    margin-top: -34%;
+  }
+
+  .see-live {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 6px 4px 2px;
+    background: #ffffff;
+    border: 1px solid #396df2;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 8px;
+    height: 32px;
+    gap: 4px;
+  }
+
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
+  }
+
+  .see-live img {
+    width: 15px;
+    height: 15px;
+    left: 3px;
+    top: 3px;
+  }
+
+  
+
+  
+
+
 }
 
 /* Desktop Version-------------------------------------------------------------------------------------- */
@@ -1070,7 +1264,7 @@ form .contacts-lists {
     height: 24px;
   }
 
-  /* Popup Window */
+  /* start of Popup Window */
 
   .popup-details {
     position: fixed;
@@ -1080,7 +1274,6 @@ form .contacts-lists {
     width: 100%;
     height: 100%;
     top: -200%;
-    /* transition: top 0.3s ease; */
     backdrop-filter: blur(6px);
     background-color: rgb(31 57 255 / 65%);
   }
@@ -1158,8 +1351,6 @@ form .contacts-lists {
   }
 
   .pop-description {
-    /* width: 82%; */
-    /* height: 32.8%; */
     margin-top: 59px;
     font-family: "Poppins", sans-serif;
     font-style: normal;
