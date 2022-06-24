@@ -303,6 +303,9 @@ header.header-section {
 
 .languages {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
 }
 
 .html-language {
@@ -774,8 +777,8 @@ form .contacts-lists {
     gap: 0;
     display: flex;
     flex-direction: column;
-    width: 375px;
-    height: 823px;
+    width: 100%;
+    height: 100%;
     top: -200%;
     background: #c1c7d0;
   }
@@ -785,9 +788,10 @@ form .contacts-lists {
     right: 0;
     top: 0;
     z-index: 10;
-    width: 375px;
+    width: 100%;
     height: 100%;
     flex-direction: column;
+    padding: 1px 0 0 28px;
   }
 
   .pop-background {
@@ -798,7 +802,7 @@ form .contacts-lists {
     border-radius: 16px;
     padding: 24px;
     width: 80.28%;
-    height: 713px;
+    height: 680px;
   }
 
   .pop-title {
@@ -812,6 +816,15 @@ form .contacts-lists {
     left: 6px;
     top: 6px;
   }
+
+  .pop-img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .popup-profileMob {
+    display: block;
+  } */
 
   .popup-experience {
     display: flex;
@@ -834,9 +847,7 @@ form .contacts-lists {
   }
 
   .pop-snapshot {
-    margin: auto;
-    width: 95.8%;
-    height: 50.4%;
+    display: none;
   }
 
   .pop-content {
@@ -844,72 +855,72 @@ form .contacts-lists {
     flex-direction: column;
   }
 
-  .pop-description {
-    margin-top: 59px;
+  .popMob-description {
     font-family: "Poppins", sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 15px;
     line-height: 24px;
     color: #344563;
+    margin-bottom: 12px;
+  }
+
+  .pop-description {
+    display: none;
   }
 
   .pop-languages {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-    margin-left: 28px;
+    display: none;
   }
 
   .pop-languages-others {
-    text-decoration: none;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 12px;
-    margin-top: -63%;
-    margin-left: 28px;
+    display: none;
   }
 
   .pop-html {
-    width: 53px;
-    height: 24px;
-    padding: 4px 12px;
+    display: none;
   }
 
   .pop-css {
-    width: 45px;
-    height: 24px;
-    padding: 4px 12px;
+    display: none;
   }
 
   .pop-js {
-    width: 67px;
-    height: 24px;
-    padding: 4px 84px 4px 4px;
+    display: none;
   }
 
   .pop-btn {
     display: flex;
     flex-direction: row;
     gap: 12px;
-    margin-left: 24px;
-    margin-top: -34%;
+    margin-top: 24px;
+  }
+
+  .divide-rule {
+    height: 0px;
+    left: 4px;
+    right: 4px;
+    margin-top: 24px;
+    border: 1px solid #ebecf0;
   }
 
   .see-live {
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding: 4px 6px 4px 2px;
+    padding: 16px;
     background: #fff;
     border: 1px solid #396df2;
     box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 8px;
     height: 32px;
     gap: 4px;
+  }
+
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
+    text-decoration: none;
   }
 
   .see-live img {
@@ -1281,6 +1292,10 @@ form .contacts-lists {
     height: 97%;
   }
 
+  .popup-profileMob {
+    display: none;
+  }
+
   .pop-title {
     display: flex;
     justify-content: space-between;
@@ -1324,6 +1339,10 @@ form .contacts-lists {
     flex-direction: row;
   }
 
+  .popMob-description {
+    display: none;
+  }
+
   .pop-description {
     margin-top: 59px;
     font-family: "Poppins", sans-serif;
@@ -1332,6 +1351,14 @@ form .contacts-lists {
     font-size: 16px;
     line-height: 30px;
     color: #344563;
+  }
+
+  .languages {
+    display: none;
+  }
+
+  .divide-rule {
+    display: none;
   }
 
   .pop-languages {
