@@ -984,12 +984,6 @@ form .contacts-lists {
     text-align: center;
   }
 
-  .see-live a {
-    color: #396df2;
-    font-size: 15px;
-    text-decoration: none;
-  }
-
   .pop-languages-others a {
     text-decoration: none;
     background: #ebebff;
@@ -997,6 +991,12 @@ form .contacts-lists {
     letter-spacing: 0.03em;
     color: #6070ff;
     text-align: center;
+  }
+
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
+    text-decoration: none;
   }
 
   .nav-bar h1 a {
@@ -1019,12 +1019,6 @@ form .contacts-lists {
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
-  }
-
-  .see-live a {
-    color: #396df2;
-    font-size: 15px;
-    text-decoration: none;
   }
 
   .nav-menu li {

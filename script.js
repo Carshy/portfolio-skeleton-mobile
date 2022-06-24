@@ -94,12 +94,6 @@ detailsBtn.forEach(n => n.addEventListener('click', () => {
   popupDetails.classList.toggle('active');
 }));
 
-// detailsBtn.addEventListener('click', () => {
-//   detailsBtn.classList.toggle('active');
-//   popupDetails.classList.toggle('active'); 
-  
-// });
-
 cancelX.addEventListener('click', () => {
   popupDetails.classList.remove('active');
 });
