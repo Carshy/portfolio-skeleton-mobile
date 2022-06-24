@@ -1105,10 +1105,10 @@ form .contacts-lists {
     box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
     padding: 24px;
-    margin-top: 77px;
-    margin-bottom: 77px;
+    /* margin-top: 77px; */
+    /* margin-bottom: 77px; */
     width: 80.28%;
-    height: 89%;
+    height: 97%;
     /* height: 1163px; */
   }
 
@@ -1146,7 +1146,7 @@ form .contacts-lists {
   }
 
   .pop-description {
-    width: 82%;
+    /* width: 82%; */
     /* height: 32.8%; */
     margin-top: 59px;
     font-family: "Poppins", sans-serif;
@@ -1163,8 +1163,27 @@ form .contacts-lists {
     flex-direction: row;
     align-items: center;
     gap: 12px;
-    margin-top: -143px;
+    /* margin-top: -143px; */
     margin-left: 28px;
+  }
+
+  .pop-languages-others {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: -43%;
+    margin-left: 28px;
+  }
+
+  .pop-languages-others a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
   }
 
   .pop-languages a {
@@ -1174,6 +1193,11 @@ form .contacts-lists {
     letter-spacing: 0.03em;
     color: #6070ff;
     text-align: center;
+  }
+
+  .languages-arrange {
+    display: grid;
+    margin-top: 3%;
   }
 
   .pop-html {
@@ -1192,6 +1216,42 @@ form .contacts-lists {
     width: 67px;
     height: 24px;
     padding: 4px 84px 4px 4px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .pop-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-left: 24px;
+    margin-top: -23%;
+  }
+
+  .see-live {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px;
+    background: #ffffff;
+    border: 1px solid #396df2;
+    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 8px;
+    height: 32px;
+  }
+
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
+  }
+
+  .see-live img {
+    width: 15px;
+    height: 15px;
+    left: 3px;
+    top: 3px;
   }
 
   /* end of popup window */
