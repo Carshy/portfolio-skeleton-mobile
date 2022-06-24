@@ -912,12 +912,6 @@ form .contacts-lists {
     gap: 4px;
   }
 
-  .see-live a {
-    color: #396df2;
-    font-size: 15px;
-    text-decoration: none;
-  }
-
   .see-live img {
     width: 15px;
     height: 15px;
@@ -1025,6 +1019,12 @@ form .contacts-lists {
     justify-content: space-between;
     align-items: center;
     padding: 2% 6%;
+  }
+
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
+    text-decoration: none;
   }
 
   .nav-menu li {
@@ -1273,7 +1273,6 @@ form .contacts-lists {
     width: 100%;
     height: 100%;
     flex-direction: column;
-    height: 100%;
     padding: 1px 0 0 28px;
   }
 
