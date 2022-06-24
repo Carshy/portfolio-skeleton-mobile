@@ -915,6 +915,7 @@ form .contacts-lists {
   .see-live a {
     color: #396df2;
     font-size: 15px;
+    text-decoration: none;
   }
 
   .see-live img {
@@ -980,6 +981,30 @@ form .contacts-lists {
     text-decoration: none;
   }
 
+  .pop-languages a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
+  }
+
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
+  .pop-languages-others a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
+  }
+
   .nav-bar h1 a {
     width: 76px;
     height: 20px;
@@ -1007,38 +1032,6 @@ form .contacts-lists {
     display: inline-block;
     list-style-type: none;
     padding: 8px 12px;
-  }
-
-  .pop-languages a {
-    text-decoration: none;
-    background: #ebebff;
-    border-radius: 8px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    text-align: center;
-  }
-
-  .see-live a {
-    color: #396df2;
-    font-size: 15px;
-  }
-
-  .pop-languages-others a {
-    text-decoration: none;
-    background: #ebebff;
-    border-radius: 8px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    text-align: center;
-  }
-
-  .pop-languages a {
-    text-decoration: none;
-    background: #ebebff;
-    border-radius: 8px;
-    letter-spacing: 0.03em;
-    color: #6070ff;
-    text-align: center;
   }
 
   .nav-menu li a {
@@ -1282,14 +1275,13 @@ form .contacts-lists {
     flex-direction: column;
     height: 100%;
     padding: 1px 0 0 28px;
-    /* top: -100%; */
   }
 
   .pop-background {
     margin: auto;
     background: #fff;
     border: 1px solid #ebecf0;
-    box-shadow: 0px 48px 48px rgba(37, 47, 137, 0.08);
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
     border-radius: 16px;
     padding: 24px;
     width: 80.28%;
@@ -1316,8 +1308,6 @@ form .contacts-lists {
     width: 496px;
     height: 40px;
     gap: 24px;
-    font-size: 15px;
-    line-height: 20px;
     color: #344563;
     font-family: "Poppins", sans-serif;
     font-style: normal;
@@ -1390,10 +1380,6 @@ form .contacts-lists {
     width: 67px;
     height: 24px;
     padding: 4px 84px 4px 4px;
-  }
-
-  a {
-    text-decoration: none;
   }
 
   .pop-btn {
