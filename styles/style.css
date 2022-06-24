@@ -303,6 +303,9 @@ header.header-section {
 
 .languages {
   list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  gap: 12px;
 }
 
 .html-language {
@@ -320,7 +323,7 @@ header.header-section {
 .javaScript-language {
   width: 45px;
   height: 24px;
-  padding: 4px 12px;
+  padding: 4px 14px;
 }
 
 .project-btn {
@@ -686,6 +689,7 @@ form .contacts-lists {
   color: #6070ff;
 }
 
+/* ..............Mobile Menu for JS styling.................. */
 @media screen and (max-width: 768px) {
   .hamburger {
     display: block;
@@ -755,6 +759,12 @@ form .contacts-lists {
     font-size: 14px;
   }
 
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
+    text-decoration: none;
+  }
+
   .nav-menu li a {
     text-decoration: none;
     font-family: "poppins", sans-serif;
@@ -764,6 +774,160 @@ form .contacts-lists {
     align-items: center;
     text-align: center;
     color: white;
+  }
+
+  /* Popup Window for mobile version */
+
+  .popup-details {
+    position: fixed;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    top: -200%;
+    background: #c1c7d0;
+  }
+
+  .popup-details.active {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 1px 0 0 28px;
+    margin: auto;
+  }
+
+  .pop-background {
+    background: #fff;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    width: 80.28%;
+    height: 680px;
+  }
+
+  .pop-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cancel-icon {
+    width: 12px;
+    height: 12px;
+    left: 6px;
+    top: 6px;
+  }
+
+  .pop-img {
+    display: flex;
+    flex-direction: column;
+  }
+
+  /* .popup-profileMob {
+    display: block;
+  } */
+
+  .popup-experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 0;
+    width: 496px;
+    height: 40px;
+    gap: 24px;
+    font-size: 15px;
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px;
+  }
+
+  .pop-canopy {
+    list-style-type: none;
+  }
+
+  .pop-snapshot {
+    display: none;
+  }
+
+  .pop-content {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .popMob-description {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #344563;
+    margin-bottom: 12px;
+  }
+
+  .pop-description {
+    display: none;
+  }
+
+  .pop-languages {
+    display: none;
+  }
+
+  .pop-languages-others {
+    display: none;
+  }
+
+  .pop-html {
+    display: none;
+  }
+
+  .pop-css {
+    display: none;
+  }
+
+  .pop-js {
+    display: none;
+  }
+
+  .pop-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-top: 24px;
+  }
+
+  .divide-rule {
+    height: 0;
+    left: 4px;
+    right: 4px;
+    margin-top: 24px;
+    border: 1px solid #ebecf0;
+  }
+
+  .see-live {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #396df2;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 8px;
+    height: 32px;
+    gap: 4px;
+  }
+
+  .see-live img {
+    width: 15px;
+    height: 15px;
+    left: 3px;
+    top: 3px;
   }
 }
 
@@ -819,6 +983,30 @@ form .contacts-lists {
     font-weight: 500;
     font-size: 16px;
     color: #7f8cff;
+    text-decoration: none;
+  }
+
+  .pop-languages a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
+  }
+
+  .pop-languages-others a {
+    text-decoration: none;
+    background: #ebebff;
+    border-radius: 8px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+    text-align: center;
+  }
+
+  .see-live a {
+    color: #396df2;
+    font-size: 15px;
     text-decoration: none;
   }
 
@@ -1068,6 +1256,181 @@ form .contacts-lists {
     width: 38px;
     height: 24px;
   }
+
+  /* start of Popup Window */
+
+  .popup-details {
+    position: fixed;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    top: -200%;
+    background: #c1c7d0;
+  }
+
+  .popup-details.active {
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    padding: 1px 0 0 28px;
+  }
+
+  .pop-background {
+    margin: auto;
+    background: #fff;
+    border: 1px solid #ebecf0;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 16px;
+    padding: 24px;
+    width: 80.28%;
+    height: 97%;
+  }
+
+  .popup-profileMob {
+    display: none;
+  }
+
+  .pop-title {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .cancel-icon {
+    width: 12px;
+    height: 12px;
+    left: 5px;
+    top: 5px;
+  }
+
+  .popup-experience {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 0;
+    width: 496px;
+    height: 40px;
+    gap: 24px;
+    color: #344563;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  .pop-canopy {
+    list-style-type: none;
+  }
+
+  .pop-snapshot {
+    margin: auto;
+    width: 95.8%;
+    height: 50.4%;
+  }
+
+  .pop-content {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .popMob-description {
+    display: none;
+  }
+
+  .pop-description {
+    margin-top: 59px;
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: #344563;
+  }
+
+  .languages {
+    display: none;
+  }
+
+  .divide-rule {
+    display: none;
+  }
+
+  .pop-languages {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-left: 28px;
+  }
+
+  .pop-languages-others {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: -63%;
+    margin-left: 28px;
+  }
+
+  .languages-arrange {
+    display: grid;
+  }
+
+  .pop-html {
+    width: 53px;
+    height: 24px;
+    padding: 4px 12px;
+  }
+
+  .pop-css {
+    width: 45px;
+    height: 24px;
+    padding: 4px 12px;
+  }
+
+  .pop-js {
+    width: 67px;
+    height: 24px;
+    padding: 4px 84px 4px 4px;
+  }
+
+  .pop-btn {
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+    margin-left: 24px;
+    margin-top: -34%;
+  }
+
+  .see-live {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 4px 6px 4px 2px;
+    background: #fff;
+    border: 1px solid #396df2;
+    box-shadow: 0 48px 48px rgba(37, 47, 137, 0.08);
+    border-radius: 8px;
+    height: 32px;
+    gap: 4px;
+  }
+
+  .see-live img {
+    width: 15px;
+    height: 15px;
+    left: 3px;
+    top: 3px;
+  }
+
+  /* end of popup window */
 
   /* Section Three: About Myself Section-------------------------------------- */
 
