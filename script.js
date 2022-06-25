@@ -98,3 +98,20 @@ cancelX.addEventListener('click', () => {
   popupDetails.classList.remove('active');
 });
 
+// *******************JavaScript for form validation******************
+
+const email = document.getElementById('email');
+const form = document.getElementById('form');
+const errorElement = document.getElementById('error');
+const isLowerCase = (string) => string === string.toLowerCase();
+
+form.addEventListener('submit', (e) => {
+  let messages = [];
+  if(!isLowerCase(email.value)) {
+    e.preventDefault();
+    messages.push('Please use lowercase for your email');
+    errorElement.innerText = messages.join(', ');
+  }
+  
+});
+
