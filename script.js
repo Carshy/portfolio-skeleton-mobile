@@ -104,7 +104,7 @@ const form = document.getElementById('form');
 const errorElement = document.getElementById('error');
 const isLowerCase = (string) => string === string.toLowerCase();
 
-form.addEventListener('submit', (e) => {
+form.addEventListener('submit', (event) => {
   const messages = [];
   if (!isLowerCase(email.value)) {
     e.preventDefault();
