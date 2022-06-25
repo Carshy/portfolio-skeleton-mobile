@@ -1,17 +1,16 @@
-// *******JavaScript for Mobile Menu****** 
+// *******JavaScript for Mobile Menu******
 const hamburger = document.querySelector('.hamburger');
 const navMenu = document.querySelector('.nav-menu');
 const menuX = document.querySelector('#menu-x');
-const navLink = document.querySelectorAll('.nav-link')
+const navLink = document.querySelectorAll('.nav-link');
 
 hamburger.addEventListener('click', () => {
   hamburger.classList.toggle('active');
   navMenu.classList.toggle('active');
   menuX.classList.toggle('active');
-  
 });
 
-navLink.forEach(n => n.addEventListener('click', () => {
+navLink.forEach((n) => n.addEventListener('click', () => {
   hamburger.classList.remove('active');
   navMenu.classList.remove('active');
 }));
@@ -20,36 +19,36 @@ navLink.forEach(n => n.addEventListener('click', () => {
 const worksDetails = [
   {
     tonic: 'Tonic',
-    experience: {canopy: 'CANOPY', backEnd: 'Back End Dev', year: 2015},
+    experience: { canopy: 'CANOPY', backEnd: 'Back End Dev', year: 2015 },
     snapshot: 'images/Snapshoot-Portfolio1.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required',
-    languages: {css: 'css', html: 'html', js: 'JavaScript'},
-    button: 'See Project'
+    languages: { css: 'css', html: 'html', js: 'JavaScript' },
+    button: 'See Project',
   },
   {
     tonic: 'Multi-Post Stories',
-    experience: {canopy: 'Facebook', backEnd: 'Full Stack Dev', year: 2015},
+    experience: { canopy: 'Facebook', backEnd: 'Full Stack Dev', year: 2015 },
     snapshot: 'images/Snapshoot-Portfolio2.png',
     description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    languages: {css: 'css', html: 'html', js: 'JavaScript'},
-    button: 'See Project'
+    languages: { css: 'css', html: 'html', js: 'JavaScript' },
+    button: 'See Project',
   },
   {
     tonic: 'Facebook 360',
-    experience: {canopy: 'Facebook', backEnd: 'Full Stack Dev', year: 2015},
+    experience: { canopy: 'Facebook', backEnd: 'Full Stack Dev', year: 2015 },
     snapshot: 'images/Snapshoot-Portfolio3.png',
     description: 'Exploring the future of media in Facebook first Virtual Reality app. A place to discover and enjoy 360 photos and videos on Gear.',
-    languages: {css: 'css', html: 'html', js: 'JavaScript'},
-    button: 'See Project'
+    languages: { css: 'css', html: 'html', js: 'JavaScript' },
+    button: 'See Project',
   },
   {
     tonic: 'Uber Navigations',
-    experience: {canopy: 'Uber', backEnd: 'Lead Developer', year: 2015},
+    experience: { canopy: 'Uber', backEnd: 'Lead Developer', year: 2015 },
     snapshot: 'images/Snapshoot-Portfolio4.png',
     description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    languages: {css: 'css', html: 'html', js: 'JavaScript'},
-    button: 'See Project'
-  }
+    languages: { css: 'css', html: 'html', js: 'JavaScript' },
+    button: 'See Project',
+  },
 ];
 
 const detailsContainer = document.querySelector('#details-container');
@@ -89,7 +88,7 @@ const detailsBtn = document.querySelectorAll('.details-button');
 const popupDetails = document.querySelector('.popup-details');
 const cancelX = document.querySelector('#cancel-X');
 
-detailsBtn.forEach(n => n.addEventListener('click', () => {
+detailsBtn.forEach((n) => n.addEventListener('click', () => {
   n.classList.toggle('active');
   popupDetails.classList.toggle('active');
 }));
@@ -98,3 +97,18 @@ cancelX.addEventListener('click', () => {
   popupDetails.classList.remove('active');
 });
 
+// *******************JavaScript for form validation******************
+
+const email = document.getElementById('email');
+const form = document.getElementById('form');
+const errorElement = document.getElementById('error');
+const isLowerCase = (string) => string === string.toLowerCase();
+
+form.addEventListener('submit', (e) => {
+  const messages = [];
+  if (!isLowerCase(email.value)) {
+    e.preventDefault();
+    messages.push('Please use the lowercase letters and proper pattern for your email');
+    errorElement.innerText = messages.join(', ');
+  }
+});

@@ -199,21 +199,25 @@
                     <h1>Contact me</h1>
                     <p>If you have an application you are interested in developing, a feature that you need built or a project that needs coding. I’d love to help with it </p>
                 </div>
-    
-                <form id="forms" action="https://formspree.io/f/mdobjgon" method="POST">
+
+                <form id="form" action="https://formspree.io/f/mdobjgon" method="POST">
+                    
                     <!-- <div class="contacts-lists"> -->
                         <div class="contact-inpt">
                             <input class="inpt-bx" type="text" name="name" id="name" maxlength="30" placeholder="Enter your name here" required>
                         </div>
     
                         <div class="contact-inpt">
-                            <input class="inpt-bx" type="email" name="email" id="name" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your email here" required>
+                            <!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" -->
+                            <input class="inpt-bx" type="email" name="email" id="email" placeholder="Enter your email here" required>
                         </div>
     
                         <div class="textarea-inpt">
                             <textarea class="txtarea-bx" maxlength="500" placeholder="Write your message here" required></textarea>
                         </div>
     
+                        <div id="error"></div>
+
                         <div class="button-inpt">
                             <button class="btn-inpt" type="submit">Get In Touch</button>
                         </div>
