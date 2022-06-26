@@ -216,8 +216,7 @@ header.header-section {
 }
 
 .details {
-  margin-bottom: 88px;
-  margin: 5%;
+  margin: auto;
   box-sizing: border-box;
   display: flex;
   flex-direction: column;
