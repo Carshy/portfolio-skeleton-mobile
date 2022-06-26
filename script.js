@@ -112,3 +112,39 @@ form.addEventListener('submit', (event) => {
     errorElement.innerText = messages.join(', ');
   }
 });
+
+// *******************JavaScript for form Local Storage******************
+
+let nameFieldInput = document.getElementById('name');
+let emailFieldInput = document.getElementById('email');
+let textAreaFieldInput = document.getElementById('text-area');
+
+let formInfo = JSON.parse(localStorage.getItem('formInfo'));
+
+nameFieldInput.value = formInfo.nameField;
+emailFieldInput.value = formInfo.emailField;
+textAreaFieldInput.value = formInfo.textAreaField;
+
+document.getElementById('form').addEventListener('submit', () => {
+// e.preventDefault();
+
+let nameField = nameFieldInput.value.trim();
+let emailField = emailFieldInput.value.trim();
+let textAreaField = textAreaFieldInput.value.trim();
+
+// check the validity of the form values
+
+if(!emailField || emailField || textAreaField) {
+  return;
+}
+
+// store data in the local storage
+formInfo = {
+  nameField: nameField,
+  emailField: emailField,
+  textAreaField: textAreaField
+};
+localStorage.setItem('formInfo', JSON.stringify(formInfo));
+
+
+});
